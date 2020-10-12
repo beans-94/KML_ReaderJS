@@ -1,7 +1,7 @@
 
 		function renderKML(map) {
   // Create a reader object passing in the URL of our KML file
-  reader = new H.data.kml.Reader('https://github.com/beans-94/KML_ReaderJS/blob/main/capture-poses-initial.kml');
+  reader = new H.data.kml.Reader('https://raw.githubusercontent.com/heremaps/jsfiddle-github/master/display-kml-on-map/');
   
   icon = new H.map.Icon('http://maps.google.com/mapfiles/kml/paddle/grn-blank.png', {size: {h:28, w:32}
   });
